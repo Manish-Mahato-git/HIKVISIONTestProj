@@ -1,0 +1,6 @@
+@HIKVISIONTestProj_HostAddress = http://localhost:5172
+
+GET {{HIKVISIONTestProj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

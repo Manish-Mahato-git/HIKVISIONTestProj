@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace HIKVISIONTestProj
+namespace HIKVISIONTestProj.Serviceses
 {
     public class DigestHttpClientHandler : HttpClientHandler
     {
@@ -15,7 +15,7 @@ namespace HIKVISIONTestProj
             _password = password;
         }
 
-        protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
+        protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
             var initialResponse = await base.SendAsync(request, cancellationToken);
 

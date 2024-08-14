@@ -35,7 +35,7 @@ namespace HIKVISIONTestProj.Controllers
         {
             var url = $"{baseUrl}/AccessControl/AcsEvent?format=json";
 
-            // The JSON data to be sent in the request body
+            // The JSON data to be sent in the request body test
             var jsonData = @"
                     {
                         ""AcsEventCond"": {

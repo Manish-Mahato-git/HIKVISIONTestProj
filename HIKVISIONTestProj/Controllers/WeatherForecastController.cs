@@ -24,7 +24,7 @@ namespace HIKVISIONTestProj.Controllers
         }
 
 
-        string baseUrl = "http://192.168.10.22/ISAPI";
+        string baseUrl = "http://192.168.10.85/ISAPI";
 
         string username = "admin";
         string password = "nepal123";
@@ -43,8 +43,8 @@ namespace HIKVISIONTestProj.Controllers
                             ""maxResults"": 30,
                             ""major"": 0,
                             ""minor"": 0,
-                            ""startTime"": ""2024-06-14T00:00:00+05:45"",
-                            ""endTime"": ""2024-06-14T23:59:59+05:45""
+                            ""startTime"": ""2024-08-14T00:00:00+05:45"",
+                            ""endTime"": ""2024-08-14T23:59:59+05:45""
                         }
                     }";
 
